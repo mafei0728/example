@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="day01">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\kkb\notebook\spark\code\example\day01\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 2" modules="bigdata,example">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\kkb\notebook\spark\code\example\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 3" modules="hbaseDemo">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\kkb\notebook\spark\code\example\hbaseDemo\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 4" modules="sparkexample">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\kkb\notebook\spark\code\example\sparkexample\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+  </component>
+</project>
